@@ -1,2 +1,2 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h2 class="text-lg font-bold">Example blog post</h2>
+<p class="text-sm text-gray-400">December 13, 2018</p>
