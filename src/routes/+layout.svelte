@@ -1,13 +1,14 @@
 <script lang="ts">
-    import Header from './header.svelte'
+	import Header from './header.svelte';
 
-    import '../app.css'
+	import '../app.css';
+	import '../prism.css';
 </script>
 
 <div class="mx-auto max-w-2xl px-5 py-12">
-    <Header />
+	<Header />
 
-    <main>
-        <slot />
-    </main>
+	<main>
+		<slot />
+	</main>
 </div>
