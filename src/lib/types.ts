@@ -1,7 +1,6 @@
 export type Post = {
   title: string
   slug: string
-  description: string
+  peep: string
   date: string
-  published: boolean
 }
