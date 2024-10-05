@@ -1,6 +1,6 @@
 ---
-title: First post
-peep: First post
+title: Can Infinite Monkeys Copy Shakespeare?
+peep: Monkey see, monkey do
 date: '2023-4-14'
 ---
 

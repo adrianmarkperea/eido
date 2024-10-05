@@ -12,13 +12,12 @@
 <section>
 	<ul>
 		{#each data.posts as post}
-			<a href={post.slug}>
-				<li class="mt-10">
-					<h2 class="text-xl font-bold">{post.title}</h2>
-					<p class="text-sm text-gray-500">{formatDate(post.date)}</p>
-					<p>{post.peep}</p>
-				</li>
-			</a>
+			<li class="mt-10">
+				<a href={post.slug}><h3 class="text-3xl font-black">{post.title}</h3></a>
+				<p class="text-sm text-gray-500 font-serif mt-1">{formatDate(post.date)}</p>
+				<p class="font-serif mt-2">{post.peep}</p>
+				<a href={post.slug}><p class="mt-4 font-serif text-green-600">Read more...</p></a>
+			</li>
 		{/each}
 	</ul>
 </section>
