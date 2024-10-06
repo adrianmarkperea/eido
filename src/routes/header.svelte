@@ -2,9 +2,9 @@
 	import * as config from '$lib/config';
 </script>
 
-<header class="my-16">
+<header class="mb-16">
 	<a href="/">
-		<h1 class="text-6xl font-black tracking-tight">{config.title}</h1>
+		<h1 class="text-5xl font-black lowercase tracking-tight">markperea</h1>
 	</a>
-	<h2 class="mt-4 text-lg font-serif">{config.subtitle}</h2>
+	<h2 class="mt-2 text-lg text-gray-500 font-serif">{config.subtitle}</h2>
 </header>

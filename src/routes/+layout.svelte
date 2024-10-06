@@ -6,7 +6,7 @@
 	import '@fontsource-variable/lora';
 </script>
 
-<div class="mx-auto max-w-xl px-5 py-12">
+<div class="mx-auto max-w-xl px-8 py-8">
 	<Header />
 
 	<main>
