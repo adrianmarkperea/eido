@@ -1,0 +1,53 @@
+.content p {
+    @apply mb-5;
+}
+
+.content a {
+  @apply text-[--link] underline;
+}
+
+.content a:hover {
+  @apply no-underline;
+}
+
+.content hr {
+    @apply pt-6
+}
+
+.content h2 {
+    @apply mt-2 pb-6 text-3xl font-bold;
+}
+
+.content h3 {
+    @apply mt-2 pb-6 text-2xl font-bold;
+}
+
+.content h4 {
+    @apply mt-2 pb-6 text-xl font-bold;
+}
+
+.content ul {
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.75rem;
+  list-style-position: outside;
+  list-style-image: none;
+  list-style: disc;
+}
+
+.content li {
+  @apply mb-5
+}
+
+.content :not(pre) > code {
+  @apply rounded-lg;
+  background: var(--code-background-inline);
+  padding: .125rem .25rem;
+}
+
+.content pre {
+  @apply overflow-y-auto p-3 text-sm rounded-xl;
+}

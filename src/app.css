@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --code-background-inline: #eff1f5;
+  --link: #187a53;
+}
+

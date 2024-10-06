@@ -2,7 +2,7 @@
 	import * as config from '$lib/config';
 </script>
 
-<header class="mb-16">
+<header class="mb-10">
 	<a href="/">
 		<h1 class="text-5xl font-black lowercase tracking-tight">markperea</h1>
 	</a>
