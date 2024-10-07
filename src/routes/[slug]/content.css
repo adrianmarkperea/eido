@@ -3,11 +3,11 @@
 }
 
 .content a {
-  @apply text-[--link] underline;
+  @apply text-[--link] no-underline;
 }
 
 .content a:hover {
-  @apply no-underline;
+  @apply underline;
 }
 
 .content hr {
