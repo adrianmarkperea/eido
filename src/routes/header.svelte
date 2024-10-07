@@ -4,7 +4,7 @@
 
 <header class="mb-10">
 	<a href="/">
-		<h1 class="text-5xl font-black lowercase tracking-tight">markperea</h1>
+		<span class="block text-5xl font-black lowercase tracking-tight">markperea</span>
 	</a>
-	<h2 class="mt-2 text-lg text-gray-500 font-serif">{config.subtitle}</h2>
+	<span class="block mt-2 text-lg text-gray-500 font-serif">{config.subtitle}</span>
 </header>
