@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { fly } from 'svelte/transition';
 	import { formatDate } from '$lib/utils';
 	import './content.css';
 
@@ -13,7 +12,7 @@
 </svelte:head>
 
 <article>
-	<h1 in:fly={{ y: 10, duration: 100, opacity: 100 }} class="text-4xl font-bold">
+	<h1 class="text-4xl font-bold">
 		{data.meta.title}
 	</h1>
 	<p class="text-sm text-gray-500 font-serif mt-1">{formatDate(data.meta.date)}</p>
