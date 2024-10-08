@@ -7,8 +7,9 @@
 <header class="mb-10">
 	<a href="/">
 		<span
-			class="block text-5xl font-black lowercase tracking-tight"
+			class="block text-5xl font-black lowercase"
 			class:tracking-[-0.1em]={hasEnergy}
+			class:tracking-tight={!hasEnergy}
 			style="transition: letter-spacing 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);"
 			>markperea</span
 		>
