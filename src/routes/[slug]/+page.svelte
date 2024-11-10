@@ -3,6 +3,7 @@
 	import './content.css';
 
 	export let data;
+	$: editUrl = `https://github.com/adrianmarkperea/markperea.com/edit/trunk/src/posts/${encodeURIComponent(data.url)}/index.md`;
 </script>
 
 <svelte:head>
@@ -20,4 +21,12 @@
 	<div class="content mt-8">
 		<svelte:component this={data.content} />
 	</div>
+
+	<hr />
+
+	<p class="mt-5">
+		<a class="text-[--link] font-serif no-underline hover:underline" href={editUrl}
+			>Edit on github</a
+		>
+	</p>
 </article>
