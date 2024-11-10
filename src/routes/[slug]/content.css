@@ -3,7 +3,7 @@
 }
 
 .content p {
-    @apply mb-5;
+  @apply mb-5;
 }
 
 .content a {
@@ -15,13 +15,13 @@
 }
 
 .content hr {
-    @apply pt-6
+  @apply pt-6
 }
 
 .content h2,
 .content h3,
 .content h4 {
-    @apply mt-2 mb-6 pb-4 font-bold border-b border-gray-200;
+  @apply mt-2 mb-6 pb-2 font-bold border-b border-gray-200;
 }
 
 .content h2 {
@@ -33,7 +33,7 @@
 }
 
 .content h4 {
-    @apply text-xl;
+  @apply text-xl;
 }
 
 .content ul {
@@ -60,4 +60,17 @@
 
 .content pre {
   @apply overflow-y-auto p-3 text-sm rounded-xl;
+}
+
+.content blockquote {
+  @apply pl-4;
+  font-style: italic;
+  border-left: 3px solid hsla(0, 0%, 0%, 0.9);
+  border-left-color: var(--link);
+  opacity: 0.8;
+}
+
+.markdown blockquote p {
+  margin: 0;
+  padding: 0;
 }
