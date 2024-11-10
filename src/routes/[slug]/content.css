@@ -18,19 +18,22 @@
     @apply pt-6
 }
 
+.content h2,
+.content h3,
+.content h4 {
+    @apply mt-2 mb-6 pb-4 font-bold border-b border-gray-200;
+}
+
 .content h2 {
-    @apply mt-2 pb-6 text-3xl font-bold;
-    @apply font-sans;
+  @apply text-3xl;
 }
 
 .content h3 {
-    @apply mt-2 pb-6 text-2xl font-bold;
-    @apply font-sans;
+  @apply text-2xl;
 }
 
 .content h4 {
-    @apply mt-2 pb-6 text-xl font-bold;
-    @apply font-sans;
+    @apply text-xl;
 }
 
 .content ul {
